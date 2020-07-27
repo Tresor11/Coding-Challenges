@@ -1,2 +1,2 @@
 # Coding-Challenges
-Is repository contains solutions to common coding challenges
+This repository contains solutions to common coding challenges; the solutions are implemented either in Ruby or JavaScript.
