@@ -1,8 +1,7 @@
 # frozen_string_literal: true
 
-#proble link 
-#https://leetcode.com/problems/contains-duplicate/
-
+# proble link
+# https://leetcode.com/problems/contains-duplicate/
 
 def contains_duplicate(nums)
   hash = {}
