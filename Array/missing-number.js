@@ -1,5 +1,5 @@
 //problem link
-// https://leetcode.com/problems/missing-number/submissions/
+// https://leetcode.com/problems/missing-number/
 
 var missingNumber = function (nums) {
   nums = nums.sort((a, b) => a - b);
