@@ -1,26 +1,3 @@
-<<<<<<< HEAD
-# frozen_string_literal: true
-
-def insertionSort1(n, arr)
-  el = arr[n - 1]
-  samp = arr
-  cond = true
-  i = n - 1
-  while cond
-    cond = false
-    if (samp[i - 1] > el) && i != 0
-      samp[i] = samp[i - 1]
-      cond = true
-    else
-      samp[i] = el
-      cond = false
-    end
-    print samp.join(' ')
-    print "\n"
-    i -= 1
-  end
-end
-=======
 def insertionSort1(n, arr)
 
     el=arr[n-1]
@@ -31,7 +8,7 @@ def insertionSort1(n, arr)
     cond=false
     if (samp[i-1] > el) && i != 0
     samp[i]=samp[i-1]
-    cond=true 
+    cond=true
     else
     samp[i]=el
     cond=false
@@ -39,6 +16,5 @@ def insertionSort1(n, arr)
     print samp.join(" ")
     print "\n"
     i -=1
-    end 
     end
->>>>>>> 89bce18... solve the insertion sort
+    end
