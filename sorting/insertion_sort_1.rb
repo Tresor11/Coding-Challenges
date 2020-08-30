@@ -16,5 +16,5 @@ def insertionSort1(n, arr)
     print samp.join(" ")
     print "\n"
     i -=1
-  end
-end
+    end
+    end
