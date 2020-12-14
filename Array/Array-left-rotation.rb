@@ -10,4 +10,4 @@ def rotLeft(a, d)
     new_arr[y] = a[(y + d) % l]
   end
   new_arr
-  end
+end
