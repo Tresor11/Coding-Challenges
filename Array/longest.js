@@ -1,3 +1,6 @@
+// sort this array according to both elements
+// [[10,20],[30,200],[400,50],[30,20]]
+
 var longestConsecutive = function (nums) {
   if (nums.length < 1) return 0;
   nums = nums.sort((a, b) => a - b);
@@ -18,6 +21,3 @@ var longestConsecutive = function (nums) {
   }
   return final.length;
 };
-
-// sort this array acoording to both elements
-// [[10,20],[30,200],[400,50],[30,20]]
