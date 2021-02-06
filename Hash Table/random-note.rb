@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def checkMagazine(magazine, note)
   my_hash = {}
   magazine.each do |x|
@@ -8,7 +10,7 @@ def checkMagazine(magazine, note)
     end
   end
   note.each do |x|
-    if !my_hash[x] || my_hash[x] - 1 < 0
+    if !my_hash[x] || (my_hash[x] - 1).negative?
       print 'No'
       return
     end
