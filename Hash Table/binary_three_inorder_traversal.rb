@@ -1,4 +1,4 @@
-#https://leetcode.com/problems/binary-tree-inorder-traversal/
+# https://leetcode.com/problems/binary-tree-inorder-traversal/
 
 def inorder_traversal(root)
   return [] if root.nil?
