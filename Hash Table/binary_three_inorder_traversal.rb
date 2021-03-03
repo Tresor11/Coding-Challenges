@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # https://leetcode.com/problems/binary-tree-inorder-traversal/
 
 def inorder_traversal(root)
