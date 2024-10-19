@@ -1,3 +1,4 @@
 # Coding-Challenges-Solutions
-This repository contains solutions to some common coding challenges; the solutions implemented in Ruby and JavaScript. TypeScript and Python coming soon.
-Problems are taken from Hackerrank and leetcode
+
+This repository contains solutions to some coding challenges; the solutions are implemented in Ruby, JavaScript, TypeScript and SQL.
+Problems are taken from [Hackerrank](https://www.hackerrank.com/) and [Leetcode](https://leetcode.com/)
